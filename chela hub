@@ -57,3 +57,9 @@ local Window = Rayfield:CreateWindow({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/chela999/just-dex/refs/heads/main/dex"))()
     end,
  })
+ local Button = Tab:CreateButton({
+   Name = "arsenal weed",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ex55/weed-client/refs/heads/main/main.lua"))()
+   end,
+})
